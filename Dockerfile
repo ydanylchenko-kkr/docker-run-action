@@ -1,6 +1,7 @@
-FROM artifactory-prod.delivery.kkr.cloud/enterpriseprocess-docker/docker:20.10
+FROM artifactory-prod.delivery.kkr.cloud/enterpriseprocess-docker/docker:27-cli
+#FROM artifactory-prod.delivery.kkr.cloud/enterpriseprocess-docker/docker:20.10
 
-RUN apk add bash
+#RUN apk add bash
 
 COPY entrypoint.sh /entrypoint.sh
 
